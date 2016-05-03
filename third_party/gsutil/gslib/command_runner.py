@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # coding=utf8
 # Copyright 2011 Google Inc. All Rights Reserved.
 #

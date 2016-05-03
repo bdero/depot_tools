@@ -240,7 +240,7 @@ class GIT(object):
       '--- a/wtf\n'
       '+++ b/wtf2\n'
       '@@ -1,4 +1,4 @@\n'
-      '-#!/usr/bin/env python\n'
+      '-#!/usr/bin/env python2\n'
       '+#!/usr/bin/env python1.3\n'
       ' # Copyright (c) 2010 The Chromium Authors. All rights reserved.\n'
       ' # blah blah blah as\n'
@@ -261,7 +261,7 @@ class GIT(object):
       '--- /dev/null\n'
       '+++ b/natsort_test.py\n'
       '@@ -0,0 +1,1 @@\n'
-      '+#!/usr/bin/env python\n')
+      '+#!/usr/bin/env python2\n')
 
   # To make sure the subdirectory was created as needed.
   NEW_SUBDIR = (
@@ -279,7 +279,7 @@ class GIT(object):
       '--- /dev/null\n'
       '+++ b/natsort_test.py\n'
       '@@ -0,0 +1,1 @@\n'
-      '+#!/usr/bin/env python\n')
+      '+#!/usr/bin/env python2\n')
 
   MODE_EXE = (
       'diff --git a/git_cl/git-cl b/git_cl/git-cl\n'

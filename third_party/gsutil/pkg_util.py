@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # Utilities to facilitate maintaining one master list of package contents 
 # in MANIFEST.in and allow us to import that list into various packaging 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # coding: utf-8
 # Copyright (c) 2012 The Chromium Authors. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
@@ -316,7 +316,7 @@ class PatchTest(unittest.TestCase):
         '--- a/wtf2\n'
         '+++ b/wtf22\n'
         '@@ -1,4 +1,4 @@\n'
-        '-#!/usr/bin/env python\n'
+        '-#!/usr/bin/env python2\n'
         '+#!/usr/bin/env python1.3\n'
         ' # Copyright (c) 2010 The Chromium Authors. All rights reserved.\n'
         ' # blah blah blah as\n'
