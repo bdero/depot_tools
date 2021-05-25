@@ -123,6 +123,7 @@ if use_goma:
   gomacc_file = 'gomacc.exe' if sys.platform.startswith('win') else 'gomacc'
   goma_dir = os.environ.get('GOMA_DIR', os.path.join(SCRIPT_DIR, '.cipd_bin'))
   gomacc_path = os.path.join(goma_dir, gomacc_file)
+  print('Using gomacc: ', goma_dir, file=sys.stderr)
   # Don't invoke gomacc if it doesn't exist.
   if os.path.exists(gomacc_path):
     # Check to make sure that goma is running. If not, don't start the build.
